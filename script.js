@@ -105,3 +105,8 @@ The let keyword was introduced in ES6 (2015)
     2. let must be Declared before use
     3. let has Block Scope
 */
+
+
+// 1. let cannot be Redeclared
+let ugo = "Ugochukwu";
+// let ugo = "Kodex Student"; -> Cannot be redeclared
