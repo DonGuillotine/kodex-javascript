@@ -183,3 +183,6 @@ console.log(costFromTempSiteToKodex);
  * Always declare a variable with const when you know that the value should not be 
  * changed.
  */
+
+
+// ********************************* Basic Operators *************************************
