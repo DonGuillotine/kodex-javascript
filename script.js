@@ -110,3 +110,10 @@ The let keyword was introduced in ES6 (2015)
 // 1. let cannot be Redeclared
 let ugo = "Ugochukwu";
 // let ugo = "Kodex Student"; -> Cannot be redeclared
+
+
+// var can be redeclared
+var kels = "Kodex Student";
+var kels = "Laravel Developer";
+
+console.log(kels);
