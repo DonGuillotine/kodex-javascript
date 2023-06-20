@@ -155,3 +155,7 @@ let windows = 5;
 }
 
 console.log(windows);
+
+// Hoisting -> You can use the variable before it is declared
+linux = "Ubunut";
+var linux;
