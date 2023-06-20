@@ -156,6 +156,30 @@ let windows = 5;
 
 console.log(windows);
 
-// Hoisting -> You can use the variable before it is declared
-linux = "Ubunut";
+/* Hoisting -> You can use the variable before it is declared 
+-------let and const are not hoisted-----------
+*/
+linux = "Ubuntu";
 var linux;
+
+
+/* The const keyword
+
+The const keyword was introduced in ES6 (2015)
+
+    **Rules**
+    1. const cannot be Reassigned
+    2. const cannot be Redeclared
+    3. const has Block Scope
+*/
+
+
+// const cannot be Reassigned
+const costFromTempSiteToKodex = 150;
+costFromTempSiteToKodex = 100;
+console.log(costFromTempSiteToKodex);
+
+/**
+ * Always declare a variable with const when you know that the value should not be 
+ * changed.
+ */
