@@ -136,7 +136,7 @@ console.log(kels);
 console.log(animal);
 
 
-//
+// ------------------Redeclaring a variable inside a block will also redeclare the variable outside the block-----------------------------------------
 var macBook = 10;
 
 {
@@ -144,3 +144,14 @@ var macBook = 10;
 }
 
 console.log(macBook);
+
+
+//--------------------------Redeclaring a variable inside a block will not redeclare the variable outside the block--------------------
+
+let windows = 5;
+
+{
+    let windows = 9000;
+}
+
+console.log(windows);
