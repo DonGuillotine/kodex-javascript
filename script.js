@@ -1,4 +1,4 @@
-// Values and Variables
+// ***************************** Values and Variables ********************************
 console.log("Hello World!");
 
 
@@ -7,7 +7,7 @@ let firstName = "Donald";
 console.log(firstName);
 
 
-// Variable Naming Conventions
+// ************************** Variable Naming Conventions *****************************
 let last_name2 = "John"
 let $function = 50;
 
@@ -16,7 +16,7 @@ let birthYear = 1990;
 console.log(last_name2);
 
 
-// Data Types
+// ******************************* Data Types ************************************
 
 /*
 JavaScript has 8 Datatypes
@@ -92,3 +92,16 @@ console.log(typeof prisca);
 
 // undefined and null are equal in value
 console.log(null == undefined);
+
+
+// ******************************** let, const and var *********************************
+
+/* The let keyword
+
+The let keyword was introduced in ES6 (2015)
+
+    **Rules**
+    1. let cannot be Redeclared
+    2. let must be Declared before use
+    3. let has Block Scope
+*/
