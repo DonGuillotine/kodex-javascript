@@ -117,3 +117,30 @@ var kels = "Kodex Student";
 var kels = "Laravel Developer";
 
 console.log(kels);
+
+
+// Block Scope
+// ----------------let has block scope----------------------
+
+{
+    let job = 5;
+}
+
+// console.log(job);
+
+// --------------- var does not have block scope------------------
+{
+    var animal = "Lion"
+}
+
+console.log(animal);
+
+
+//
+var macBook = 10;
+
+{
+    var macBook = 200;
+}
+
+console.log(macBook);
