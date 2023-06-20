@@ -18,6 +18,18 @@ console.log(last_name2);
 
 // Data Types
 
+/*
+JavaScript has 8 Datatypes
+    1. String
+    2. Number
+    3. Bigint
+    4. Boolean
+    5. Undefined
+    6. Null
+    7. Symbol
+    8. Object
+ */
+
 // 1. Booleans->True or False Values
 var javaScriptIsEasy = true;
 var lifeisHard = false;
@@ -62,3 +74,21 @@ console.log(typeof car)
 // When adding a number and a string, JavaScript will treat the number as a string.
 let vehicle = 16 + 4 + "Volvo"
 console.log(vehicle);
+
+/* 5. Null
+
+    In JavaScript null is nothing. It is supposed to be something that doesn't exist
+    The data type of null is an object
+
+*/
+let prisca = null;
+console.log(typeof prisca);
+
+/**
+ * Difference between undefined and null
+ * Typeof undefined is undefined
+ * Typeof null is object 
+ */
+
+// undefined and null are equal in value
+console.log(null == undefined);
