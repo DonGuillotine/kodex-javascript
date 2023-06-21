@@ -247,3 +247,12 @@ ugoAge = '35';
 olisaAge = 35;
 
 console.log(ugoAge === olisaAge);
+
+
+// ----------------------------- Operator Precedence ---------------------------------
+const yearNow = 2023;
+const josephAge = yearNow - 1999;
+const henryAge = yearNow - 1990;
+
+console.log((josephAge + henryAge) * 10);
+// 22 + 33 * 10
