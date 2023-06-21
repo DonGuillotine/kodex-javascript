@@ -206,3 +206,25 @@ console.log(divineAge * 2, divineAge / 10, 2 ** 3);
  * Concatenate (Add) the two varaibles
  * And display the result in the console
  */
+
+let bestSeries, bestMovie;
+
+bestSeries = "From";
+bestMovie = "Extraction"
+
+
+console.log(bestSeries + ' ' + bestMovie);
+
+
+
+// ----------------------------------Assignment Operator (=) ----------------------------
+let numberOne = 10 + 15;
+numberOne += 5;
+// numberOne = numberOne + 5;
+console.log(numberOne);
+
+
+let numberTwo = 2 + 5;
+numberTwo *= 7;
+numberTwo = numberTwo * 7;
+
