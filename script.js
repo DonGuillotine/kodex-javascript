@@ -198,3 +198,11 @@ console.log(divineAge, davidAge);
 
 // Multiplication, Division and Raise to power
 console.log(divineAge * 2, divineAge / 10, 2 ** 3);
+
+
+/**
+ * Create 2 variables
+ * The datatype must be strings
+ * Concatenate (Add) the two varaibles
+ * And display the result in the console
+ */
