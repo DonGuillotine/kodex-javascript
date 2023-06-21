@@ -226,5 +226,15 @@ console.log(numberOne);
 
 let numberTwo = 2 + 5;
 numberTwo *= 7;
+// Can be rewritten as:
 numberTwo = numberTwo * 7;
 
+let nummberThree = 1;
+nummberThree++;
+// Can be rewritten as:
+nummberThree = nummberThree + 1;
+
+let numberFour  = 4;
+numberFour--;
+// Can be rewritten as:
+numberFour = numberFour - 1;
