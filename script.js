@@ -176,7 +176,7 @@ The const keyword was introduced in ES6 (2015)
 
 // const cannot be Reassigned
 const costFromTempSiteToKodex = 150;
-costFromTempSiteToKodex = 100;
+// costFromTempSiteToKodex = 100;
 console.log(costFromTempSiteToKodex);
 
 /**
@@ -186,3 +186,11 @@ console.log(costFromTempSiteToKodex);
 
 
 // ********************************* Basic Operators *************************************
+
+
+// Math Operators
+const now = 2023;
+const divineAge = now - 1990;
+const davidAge = now - 1981;
+
+console.log(divineAge, davidAge);
