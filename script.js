@@ -238,3 +238,12 @@ let numberFour  = 4;
 numberFour--;
 // Can be rewritten as:
 numberFour = numberFour - 1;
+
+
+
+// ---------------------------- Comparison Operators ( >, <, >=, <=, ==, ===) --------------------------------
+let ugoAge, olisaAge;
+ugoAge = '35';
+olisaAge = 35;
+
+console.log(ugoAge === olisaAge);
