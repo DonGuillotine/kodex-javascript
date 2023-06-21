@@ -194,3 +194,7 @@ const divineAge = now - 1990;
 const davidAge = now - 1981;
 
 console.log(divineAge, davidAge);
+
+
+// Multiplication, Division and Raise to power
+console.log(divineAge * 2, divineAge / 10, 2 ** 3);
