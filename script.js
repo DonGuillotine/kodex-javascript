@@ -320,12 +320,23 @@ lines`);
 
 
 // ******************************** Taking Decision: if / else statements *************************************
-const kelsAge = 5;
+const kelsAge = 35;
 
+// If statement only executes when the expression evaluated to true
 if(kelsAge >= 18){
     console.log(`Kels is eligible to drink Alchohol 🍷 cos his age is ${kelsAge}`);
 }
+// Else statement executes when the if statement returns false
 else{
     const yearsLeft = 18 - kelsAge;
     console.log(`Kels is not eligible to drink alchohol 🥲. Wait another ${yearsLeft} years`);
+}
+
+let dayOfTheWeek = 'Monday';
+
+if(dayOfTheWeek == 'Monday'){
+    console.log('SIT AT HOME 🏠')
+}
+else{
+    console.log('Write some code!');
 }
