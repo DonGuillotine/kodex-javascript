@@ -306,3 +306,14 @@ console.log(donald);
 
 const newDonald = `I'm ${myName}, a ${currentYear - yearOfBirth} year old ${myJob}!`;
 console.log(newDonald);
+
+console.log(`Hello how are you doing`);
+
+console.log('This is \n\
+for multiple \n\
+lines');
+
+console.log(`This
+is
+for muliple
+lines`);
