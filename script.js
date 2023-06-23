@@ -300,5 +300,9 @@ const myJob = 'Developer';
 const yearOfBirth = 1717;
 const currentYear = 2077;
 
-const donald = "I'm " + myName + ', a ' + (yearOfBirth - currentYear) + ' year old ' + myJob + '!';
+const donald = "I'm " + myName + ', a ' + (currentYear - yearOfBirth) + ' year old ' + myJob + '!';
 console.log(donald);
+
+
+const newDonald = `I'm ${myName}, a ${currentYear - yearOfBirth} year old ${myJob}!`;
+console.log(newDonald);
