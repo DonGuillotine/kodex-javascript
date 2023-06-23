@@ -315,5 +315,17 @@ lines');
 
 console.log(`This
 is
-for muliple
+for multiple
 lines`);
+
+
+// ******************************** Taking Decision: if / else statements *************************************
+const kelsAge = 5;
+
+if(kelsAge >= 18){
+    console.log(`Kels is eligible to drink Alchohol 🍷 cos his age is ${kelsAge}`);
+}
+else{
+    const yearsLeft = 18 - kelsAge;
+    console.log(`Kels is not eligible to drink alchohol 🥲. Wait another ${yearsLeft} years`);
+}
