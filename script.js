@@ -9,7 +9,7 @@ console.log(firstName);
 
 // ************************** Variable Naming Conventions *****************************
 let last_name2 = "John"
-let $function = 50;
+let _function = 50;
 
 let birthYear = 1990;
 
@@ -355,3 +355,21 @@ HINT: Use an if/else statement 😉
 
 GOOD LUCK 😀
 */
+
+// Step 1 - Store Mark and John's mass and height in variables
+
+// Step 2 - Mark and John's BMI using the formular: BMI = mass / height ** 2 
+markBMI = markMass / markHeight ** 2; // markMass / markHeight * markHeight
+johnBMI = johnMass / johnHeight ** 2;
+
+console.log(markBMI, johnBMI);
+
+
+// Step 3 - Create a boolean variable 'markHigherBMI'
+if(markBMI > johnBMI){
+    console.log(`Mark's BMI ${markBMI} is higher than John's ${johnBMI}!`)
+}
+else{
+    console.log(`John's BMI ${johnBMI} is higher than Marks's ${markBMI}!`)
+}
+
