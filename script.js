@@ -389,3 +389,15 @@ console.log(String(23), 23);
 
 
 // Type Coersion
+
+// Type coersion is when JavaScript coerces or changes a data type by itself
+const sum = 35 + 'hello';
+console.log(sum);
+
+console.log('23' - '10' - 3);
+
+console.log('24' / '2');
+
+let n = '1' + 1;
+n = n - 1;
+console.log(n);
