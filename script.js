@@ -373,3 +373,9 @@ else{
     console.log(`John's BMI ${johnBMI} is higher than Marks's ${markBMI}!`)
 }
 
+
+// ******************************************** Type Conversion and Coercion *****************************************
+// Type conversion is the process of converting a value from one type to another
+
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
