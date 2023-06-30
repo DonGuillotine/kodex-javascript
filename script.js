@@ -439,15 +439,16 @@ else{
 */
 const hasDriversLicense = true;
 const hasGoodVision = false;
+const isTired = false;
 
 // console.log(hasDriversLicense && hasGoodVision);
 // console.log(hasDriversLicense || hasGoodVision);
 // console.log(!hasDriversLicense);
 
 
-if(!hasDriversLicense || hasGoodVision){
+if(hasDriversLicense && hasGoodVision || isTired){
     console.log('Nonse is eligible to drive');
 }
 else{
-    console.log('Someon else should drive');
+    console.log('Someone else should drive');
 }
