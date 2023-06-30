@@ -487,3 +487,22 @@ else if(manchesterScore < barcelonaScore){
 else if(manchesterScore === barcelonaScore){
     console.log('Its a Draw!, Both Teams win 😉');
 }
+
+
+// Step 3
+const manchesterScore2 = (97 + 112 + 101) / 3;
+const barcelonaScore2 = (109 + 95 + 123) / 3;
+console.log(manchesterScore2, barcelonaScore2);
+
+if(manchesterScore2 > barcelonaScore2 && manchesterScore2 >= 100){
+    console.log("Manchester wins the trophy 🏆");
+}
+else if(barcelonaScore2 > manchesterScore2 && barcelonaScore2 >= 100){
+    console.log("Barcelona wins the trophy 🏆");
+}
+else if(manchesterScore2 === barcelonaScore2 && manchesterScore2 >= 100 && barcelonaScore2 >= 100){
+    console.log("Both wins the trophy 🏆");
+}
+else{
+    console.log("No one wins 😭");
+}
