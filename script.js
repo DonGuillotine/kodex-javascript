@@ -429,3 +429,13 @@ if(product){
 else{
     console.log('Go on a shopping spree!');
 }
+
+
+// *************************************************** Logical Operators ********************************************
+// Logical Operatoes are used to determine the logic between vairables or values
+const hasDriversLicense = true;
+const hasGoodVision = true;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
