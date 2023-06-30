@@ -432,10 +432,22 @@ else{
 
 
 // *************************************************** Logical Operators ********************************************
-// Logical Operatoes are used to determine the logic between vairables or values
+/* Logical Operatoes are used to determine the logic between vairables or values
+    && is the AND Operator
+    || is the OR Operator
+    ! is the NOT Operator   
+*/
 const hasDriversLicense = true;
-const hasGoodVision = true;
+const hasGoodVision = false;
 
 console.log(hasDriversLicense && hasGoodVision);
 console.log(hasDriversLicense || hasGoodVision);
 console.log(!hasDriversLicense);
+
+
+if(hasDriversLicense || hasGoodVision){
+    console.log('Nonse is eligible to drive');
+}
+else{
+    console.log('Someon else should drive');
+}
