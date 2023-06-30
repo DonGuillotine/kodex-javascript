@@ -440,12 +440,12 @@ else{
 const hasDriversLicense = true;
 const hasGoodVision = false;
 
-console.log(hasDriversLicense && hasGoodVision);
-console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
 
 
-if(hasDriversLicense || hasGoodVision){
+if(!hasDriversLicense || hasGoodVision){
     console.log('Nonse is eligible to drive');
 }
 else{
