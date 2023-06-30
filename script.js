@@ -471,3 +471,19 @@ TEST DATA BONUS 2: Manchester scores 97, 112, and 101. Barcelona scores 109, 95,
 GOOD LUCK! 😀
 
 */
+// Step 1
+const manchesterScore = (96 + 108 + 89) / 3;
+const barcelonaScore = (88 + 91 + 110) / 3;
+
+console.log(manchesterScore, barcelonaScore);
+
+// Step 2
+if(manchesterScore > barcelonaScore){
+    console.log('Manchester wins the trophy 🏆');
+}
+else if(manchesterScore < barcelonaScore){
+    console.log("Barcelona wins the trophy 🏆");
+}
+else if(manchesterScore === barcelonaScore){
+    console.log('Its a Draw!, Both Teams win 😉');
+}
