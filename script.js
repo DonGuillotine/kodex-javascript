@@ -432,7 +432,7 @@ else{
 
 
 // *************************************************** Logical Operators ********************************************
-/* Logical Operatoes are used to determine the logic between vairables or values
+/* Logical Operators are used to determine the logic between vairables or values
     && is the AND Operator
     || is the OR Operator
     ! is the NOT Operator   
@@ -505,4 +505,28 @@ else if(manchesterScore2 === barcelonaScore2 && manchesterScore2 >= 100 && barce
 }
 else{
     console.log("No one wins 😭");
+}
+
+
+
+// ********************************* The Switch Statement ********************************
+const day = "tuesday";
+
+switch(day){
+    case 'monday':
+        console.log('Sit at home');
+        break;
+    case 'tuesday':
+        console.log('Go for JavaScript Class');
+        break;
+    case 'wednesday':
+        console.log('Go to the Gym');
+        break;
+    case 'thursday':
+    case 'friday':
+        console.log('Bake some Cake');
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log('Write some code!');
 }
