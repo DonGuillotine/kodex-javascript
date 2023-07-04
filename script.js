@@ -510,7 +510,7 @@ else{
 
 
 // ********************************* The Switch Statement ********************************
-const day = "lundi";
+const day = "tuesday";
 
 switch(day){
     case 'monday':
@@ -532,4 +532,18 @@ switch(day){
         break;
     default:
         console.log('Don"t do anything');
+}
+
+// Switch statement logic in if else blocks
+if(day === 'monday'){
+    console.log('Sit at home');
+}
+else if(day === 'tuesday'){
+    console.log('Go for class');
+}
+else if(day === 'thursday' || day === 'friday'){
+    console.log('Bake some Cake');
+}
+else{
+    console.log('Dont do anything');
 }
