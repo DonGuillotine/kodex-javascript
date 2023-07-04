@@ -510,7 +510,7 @@ else{
 
 
 // ********************************* The Switch Statement ********************************
-const day = "tuesday";
+const day = "lundi";
 
 switch(day){
     case 'monday':
@@ -529,4 +529,7 @@ switch(day){
     case 'saturday':
     case 'sunday':
         console.log('Write some code!');
+        break;
+    default:
+        console.log('Don"t do anything');
 }
