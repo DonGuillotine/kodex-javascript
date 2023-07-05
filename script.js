@@ -628,3 +628,18 @@ const calculateAge1 = function(birthYear){
 }
 
 console.log(calculateAge1(1989));
+
+
+// ********************************* Arrow Functions ***********************************
+const calculateAge2 = birthYear => 2023 - birthYear;
+console.log(calculateAge2(1717));
+
+
+const yearsUntillRetirement = (birthYear, firstName) => {
+    const age = 2023 - birthYear;
+    const retirement = 60 - age;
+    return `${firstName} retires in ${retirement} years`;
+}
+
+console.log(yearsUntillRetirement(1965, 'Donald'));
+console.log(yearsUntillRetirement(2006, 'Nonso'));
