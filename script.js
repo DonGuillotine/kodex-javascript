@@ -610,3 +610,21 @@ console.log(friutSalad);
 
 console.log(getFriutName('Eggs', 'Milk'));
 console.log(getFriutName('Paw Paw', 'Peanut'));
+
+
+// ************************** Function Declearation and Function Expressions *******************************
+
+// Function Declaration
+function calculateAge(birthYear){
+    return 2023 - birthYear;
+}
+
+console.log(calculateAge(1998));
+
+// Function Expressions
+// let a = b + c
+const calculateAge1 = function(birthYear){
+    return 2023 - birthYear;
+}
+
+console.log(calculateAge1(1989));
