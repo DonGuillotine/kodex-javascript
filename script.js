@@ -631,18 +631,18 @@ console.log(calculateAge1(1989));
 
 
 // ********************************* Arrow Functions ***********************************
-const calculateAge2 = birthYear => 2023 - birthYear;
-console.log(calculateAge2(1717));
+// const calculateAge2 = birthYear => 2023 - birthYear;
+// console.log(calculateAge2(1717));
 
 
-const yearsUntillRetirement = (birthYear, firstName) => {
-    const age = 2023 - birthYear;
-    const retirement = 60 - age;
-    return `${firstName} retires in ${retirement} years`;
-}
+// const yearsUntillRetirement = (birthYear, firstName) => {
+//     const age = 2023 - birthYear;
+//     const retirement = 60 - age;
+//     return `${firstName} retires in ${retirement} years`;
+// }
 
-console.log(yearsUntillRetirement(1965, 'Donald'));
-console.log(yearsUntillRetirement(2006, 'Nonso'));
+// console.log(yearsUntillRetirement(1965, 'Donald'));
+// console.log(yearsUntillRetirement(2006, 'Nonso'));
 
 
 // ***************************** Functions Calling other Functions ***********************
@@ -660,3 +660,26 @@ function friutProcessor(item1, item2){
 }
 
 console.log(friutProcessor(3, 2));
+
+
+// *************************** Reviewing Functioons *************************************
+
+const calculateAge2 = birthYear => 2023 - birthYear;
+console.log(calculateAge2(1717));
+
+
+const yearsUntillRetirement = (birthYear, firstName) => {
+    const age = 2023 - birthYear;
+    const retirement = 60 - age;
+    if(retirement > 0){
+        console.log(`${firstName} retires in ${retirement} years`);
+        return retirement
+    }
+    else{
+        console.log(`${firstName} has already retires`);
+        return -1;
+    }
+}
+
+console.log(yearsUntillRetirement(1965, 'Donald'));
+console.log(yearsUntillRetirement(1945, 'Nonso'));
