@@ -583,3 +583,30 @@ GOOD LUCK 😀
 const bill = 275;
 const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value is ${bill + tip}`);
+
+
+
+// ********************************* Functions ******************************************
+function sayHiToDonald(){
+    console.log('My name is Donald. Say Hi!');
+}
+
+// In order for the function to be used it has to be invoked / called
+sayHiToDonald();
+sayHiToDonald();
+sayHiToDonald();
+sayHiToDonald();
+sayHiToDonald();
+sayHiToDonald();
+
+
+function getFriutName(item1, item2){
+    const juice = `Friut Salad is made with ${item1} and ${item2}`;
+    return juice;
+}
+
+const friutSalad = getFriutName('Cabbage', 'Carrot');
+console.log(friutSalad);
+
+console.log(getFriutName('Eggs', 'Milk'));
+console.log(getFriutName('Paw Paw', 'Peanut'));
