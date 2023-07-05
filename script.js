@@ -643,3 +643,20 @@ const yearsUntillRetirement = (birthYear, firstName) => {
 
 console.log(yearsUntillRetirement(1965, 'Donald'));
 console.log(yearsUntillRetirement(2006, 'Nonso'));
+
+
+// ***************************** Functions Calling other Functions ***********************
+function cutFriutPieces(friutNumber){
+    return friutNumber * 4;
+}
+
+
+function friutProcessor(item1, item2){
+    const item1Pieces = cutFriutPieces(item1);
+    const item2Pieces = cutFriutPieces(item2);
+
+    const juice = `Juice is made with ${item1Pieces} pieces of Oranges and ${item2Pieces} pieces of Bananas`;
+    return juice;
+}
+
+console.log(friutProcessor(3, 2));
