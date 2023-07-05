@@ -683,3 +683,25 @@ const yearsUntillRetirement = (birthYear, firstName) => {
 
 console.log(yearsUntillRetirement(1965, 'Donald'));
 console.log(yearsUntillRetirement(1945, 'Nonso'));
+
+
+/* CODING CHALLANGE 6 ~ Functions!
+                            Manchester and Barcelona. 
+Each team competes 3 times, and then the average of the 3 scores is calculated (so one average score per team).
+A team ONLY wins if it has at least DOUBLE the average score of the other team. Otherwise, no team wins!
+
+1. Create an arrow function 'calcAverage' to calculate the average of 3 scores
+2. Use the function to calculate the average for both teams
+3. Create a function 'checkWinner' that takes the average score of each team as parameters ('avgManchester' and 'avgBarcelone'),
+ and then logs the winner to the console, together with the victory points, according to the rule above. Example: "Barcelons win (30 vs. 13)".
+4. Use the 'checkWinner' function to determine the winner for both DATA 1 and DATA 2.
+5. Ignore draws this time.
+
+TEST DATA 1: Manchester scores 44, 23 and 71. Barcelona scores 65, 54 and 49
+TEST DATA 2: Manchester scores 85, 54 and 41. Barcelona scores 23, 34 and 27
+
+HINT: To calculate average of 3 values, add them all together and divide by 3
+HINT: To check if number A is at least double number B, check for A >= 2 * B. Apply this to the team's average scores 😉
+
+GOOD LUCK 😀
+*/
