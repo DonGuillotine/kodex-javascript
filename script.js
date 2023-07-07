@@ -752,9 +752,22 @@ console.log(friends[1]);
 console.log(friends.length);
 
 friends[1] = "Donald";
-console.log(friends.sort());
+console.log(friends);
 
 
 // Method 2
 // const people = new Array('Joseph', 'Donald', 23, 81);
 // console.log(people);
+
+// More on Arrays
+const findAge = function(birthYear){
+    return 2023 - birthYear;
+}
+
+const years = [1990, 1965, 1914, 1945, 2000];
+
+const age1 = findAge(years[0]);
+const age2 = findAge(years[1]);
+const age3 = findAge(years[years.length - 1]);
+
+console.log(age1, age2, age3);
