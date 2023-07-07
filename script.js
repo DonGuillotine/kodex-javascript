@@ -771,3 +771,13 @@ const age2 = findAge(years[1]);
 const age3 = findAge(years[years.length - 1]);
 
 console.log(age1, age2, age3);
+
+// **************************************** Array Methods *******************************
+const newFriends = ['Ugo', 'Prisca', 'Henry', 'Divine', 'David'];
+
+/* Add Elements
+    The Push Method Appends new elements to the end of an array, and returns the new length of the array.
+*/
+const newLength = newFriends.push('Donald');
+console.log(newFriends);
+console.log(newLength);
