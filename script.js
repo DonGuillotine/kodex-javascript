@@ -821,3 +821,22 @@ HINT: Remember that an array needs a value in each position, and that value can 
 
 GOOD LUCK 😀
 */
+// Task 1
+const calculateTip = function(bill){
+    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+}
+
+console.log(calculateTip(100));
+
+
+// Task 2
+const bills = [125, 555, 44];
+
+// Task 3
+const tips = [calculateTip(bills[0]), calculateTip(bills[1]), calculateTip(bills[2])];
+
+
+// Task 4
+const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+
+console.log(bills, tips, totals);
