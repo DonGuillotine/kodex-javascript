@@ -705,3 +705,34 @@ HINT: To check if number A is at least double number B, check for A >= 2 * B. Ap
 
 GOOD LUCK 😀
 */
+
+// Task 1
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+
+// Task 2
+let scoreManchester = calcAverage(44, 23, 71);
+let scoreBarcelona = calcAverage(65, 54, 49);
+console.log(scoreManchester, scoreBarcelona);
+
+// Task 3
+const checkWinner = function (avgManchester, avgBarcelona){
+    if(avgManchester >= 2 * avgBarcelona){
+        console.log(`Manchester wins 🔥 (${avgManchester} vs ${avgBarcelona})`);
+    }
+    else if(avgBarcelona >= 2 * avgManchester){
+        console.log(`Barcelona wins 🔥 (${avgBarcelona} vs ${avgManchester})`);
+    }
+    else{
+        console.log(`Nobody won 💀`);
+    }
+}
+
+// Task 4
+console.log(checkWinner(scoreManchester, scoreBarcelona));
+// console.log(finale);
+
+let scoreManchesterTwo = calcAverage(85, 54, 41);
+let scoreBarcelonaTwo = calcAverage(23, 34, 27);
+console.log(scoreManchesterTwo, scoreBarcelonaTwo)
+
+console.log(checkWinner(scoreManchesterTwo, scoreBarcelonaTwo));
