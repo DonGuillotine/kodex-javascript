@@ -781,3 +781,28 @@ const newFriends = ['Ugo', 'Prisca', 'Henry', 'Divine', 'David'];
 const newLength = newFriends.push('Donald');
 console.log(newFriends);
 console.log(newLength);
+
+/* The unshift Method Inserts new elements at the start of an array, and returns the new length of the array. */
+newFriends.unshift('Kels');
+console.log(newFriends);
+
+
+/* Removing Elements
+    The pop Method Removes the last element from an array and returns it. */
+newFriends.pop();
+console.log(newFriends);
+
+// Removes the first element from an array 
+newFriends.shift();
+console.log(newFriends);
+
+console.log(newFriends.indexOf('Divine'));
+
+console.log(newFriends.includes('Henry'));
+
+if(newFriends.includes('Divine')){
+    console.log('He is a Senior Dev ✨💪🏿');
+}
+else{
+    console.log('He still de learn work 🤣');
+}
