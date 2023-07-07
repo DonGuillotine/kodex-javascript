@@ -728,11 +728,33 @@ const checkWinner = function (avgManchester, avgBarcelona){
 }
 
 // Task 4
-console.log(checkWinner(scoreManchester, scoreBarcelona));
+checkWinner(scoreManchester, scoreBarcelona);
 // console.log(finale);
 
 let scoreManchesterTwo = calcAverage(85, 54, 41);
 let scoreBarcelonaTwo = calcAverage(23, 34, 27);
 console.log(scoreManchesterTwo, scoreBarcelonaTwo)
 
-console.log(checkWinner(scoreManchesterTwo, scoreBarcelonaTwo));
+checkWinner(scoreManchesterTwo, scoreBarcelonaTwo);
+
+
+
+// ************************************ Introduction to Arrays ***************************
+let student1, student2, student3;
+student1 = "Donald";
+student2 = "Somto";
+student3 = "Micheal";
+
+// Method 1
+const friends = ['Ugo', 'Prisca', 'David', 'Divine'];
+console.log(friends);
+console.log(friends[1]);
+console.log(friends.length);
+
+friends[1] = "Donald";
+console.log(friends.sort());
+
+
+// Method 2
+// const people = new Array('Joseph', 'Donald', 23, 81);
+// console.log(people);
