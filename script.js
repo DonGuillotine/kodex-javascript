@@ -898,10 +898,16 @@ const students = {
     birthYear: 1991,
     job: 'Developer',
     friends: ['Henry', 'Prisca', 'Olisa'],
-    hasDriversLicense: true,
-    calculateAge: function(birthYear){
-        return 2023 - birthYear;
+    hasDriversLicense: false,
+    calculateAge: function(){
+        this.age = 2023 - this.birthYear;
+        return this.age;
+    },
+    getSummary: function(){
+        // Donald is a 32 year old Developer, and he has a/no drivers licence
+        return `${this.firstName} is a ${this.calculateAge()}-year old ${this.job}, and he has ${this.hasDriversLicense ? 'a' : 'no'} drivers license`;
     }
 }
-
 console.log(students.calculateAge());
+console.log(students.age);
+console.log(students.getSummary());
