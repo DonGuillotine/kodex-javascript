@@ -873,15 +873,19 @@ const nameKey = "Name";
 console.log(donaldObject['first' + nameKey]); //firstName
 console.log(donaldObject['last' + nameKey]); //lastName
 
-const intrestedIn = prompt('What do you want to know about me? Choose between firstName, lastName, age, job, and friends');
+// const intrestedIn = prompt('What do you want to know about me? Choose between firstName, lastName, age, job, and friends');
 
-if(donaldObject[intrestedIn]){
-    console.log(donaldObject[intrestedIn]);
-}
-else{
-    console.log('Wrong Request');
-}
+// if(donaldObject[intrestedIn]){
+//     console.log(donaldObject[intrestedIn]);
+// }
+// else{
+//     console.log('Wrong Request');
+// }
 
 donaldObject.location = "Italy";
 donaldObject['gitHub'] = "donguillotine";
 console.log(donaldObject);
+
+
+// Donald has 3 friends and his best friend is Ugo
+console.log(`${donaldObject.firstName} has ${donaldObject.friends.length} friends and his best friend is ${donaldObject.friends[2]}`);
