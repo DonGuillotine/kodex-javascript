@@ -881,3 +881,7 @@ if(donaldObject[intrestedIn]){
 else{
     console.log('Wrong Request');
 }
+
+donaldObject.location = "Italy";
+donaldObject['gitHub'] = "donguillotine";
+console.log(donaldObject);
