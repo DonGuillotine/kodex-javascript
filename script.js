@@ -889,3 +889,19 @@ console.log(donaldObject);
 
 // Donald has 3 friends and his best friend is Ugo
 console.log(`${donaldObject.firstName} has ${donaldObject.friends.length} friends and his best friend is ${donaldObject.friends[2]}`);
+
+
+// ********************************* Object Methods *************************************
+const students = {
+    firstName: 'Donald',
+    lastName: 'Nwokoro',
+    birthYear: 1991,
+    job: 'Developer',
+    friends: ['Henry', 'Prisca', 'Olisa'],
+    hasDriversLicense: true,
+    calculateAge: function(birthYear){
+        return 2023 - birthYear;
+    }
+}
+
+console.log(students.calculateAge());
