@@ -840,3 +840,30 @@ const tips = [calculateTip(bills[0]), calculateTip(bills[1]), calculateTip(bills
 const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 console.log(bills, tips, totals);
+
+// ******************************* Introduction to Objectsm ******************************
+const donaldArray = [
+    'Donald',
+    'Wilfred',
+    2023 - 1999,
+    'Developer',
+    ['kels', 'somto', 'olisa']
+];
+
+const donaldObject = {
+    firstName: 'Donald',
+    lastNmae: 'Wilfred',
+    age: 2023 - 1999,
+    job: 'Developer',
+    friends: ['Micheal', 'Olisa', 'Ugo']
+}
+
+console.log(donaldObject);
+
+// Dot vs Bracket Notation
+
+// Dot Notation
+console.log(donaldObject.job);
+
+// Bracket Notation
+console.log(donaldObject['friends']);
