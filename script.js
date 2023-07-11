@@ -852,7 +852,7 @@ const donaldArray = [
 
 const donaldObject = {
     firstName: 'Donald',
-    lastNmae: 'Wilfred',
+    lastName: 'Wilfred',
     age: 2023 - 1999,
     job: 'Developer',
     friends: ['Micheal', 'Olisa', 'Ugo']
@@ -866,4 +866,18 @@ console.log(donaldObject);
 console.log(donaldObject.job);
 
 // Bracket Notation
-console.log(donaldObject['friends']);
+console.log(donaldObject['firstName']);
+
+
+const nameKey = "Name";
+console.log(donaldObject['first' + nameKey]); //firstName
+console.log(donaldObject['last' + nameKey]); //lastName
+
+const intrestedIn = prompt('What do you want to know about me? Choose between firstName, lastName, age, job, and friends');
+
+if(donaldObject[intrestedIn]){
+    console.log(donaldObject[intrestedIn]);
+}
+else{
+    console.log('Wrong Request');
+}
