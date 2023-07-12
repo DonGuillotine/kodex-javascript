@@ -967,6 +967,51 @@ else{
 
 // **************************** Iteration: For Loop *************************************
 // Loop to display students count
-for(let counter = 1; counter <= 50; counter++){
-    console.log(counter);
+// for(let counter = 1; counter <= 50; counter++){
+//     console.log(counter);
+// }
+
+// Looping Arrays, Breaking and Continuing
+const divineArray = [
+    'Divine',
+    'Mbgoji',
+    2023 - 1999,
+    'Developer',
+    ['Micheal', 'somto', 'olisa']
+];
+
+const types = [];
+
+for(let i = 0; i < divineArray.length; i++){
+    console.log(divineArray[i], typeof divineArray[i]);
+
+    types.push(divineArray[i]);
+}
+
+console.log(types);
+
+// for(;;){
+//     console.log('hELLO')
+// }
+// for(let i = 0; i < Infinity; i++){
+
+// };
+
+const timeline = [1991, 2003, 2013, 1789];
+const ages = [];
+
+for(let counter = 0; counter < timeline.length; counter++){
+    // ages[counter] = 2023 - timeline[counter]
+    ages.push(2023 - timeline[counter]);
+}
+
+console.log(ages);
+
+
+// Continue and break Statements
+console.log('------------ONLY STRINGS-------------');
+
+for(let counter = 0; counter < divineArray.length; counter++){
+    if(typeof divineArray[counter] !== 'string') continue;
+    console.log(divineArray[counter], typeof divineArray[counter]);
 }
