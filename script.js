@@ -963,3 +963,10 @@ else if(john.bmi > mark.bmi){
 else{
     console.log(`No one wins 😥`);
 }
+
+
+// **************************** Iteration: For Loop *************************************
+// Loop to display students count
+for(let counter = 1; counter <= 50; counter++){
+    console.log(counter);
+}
