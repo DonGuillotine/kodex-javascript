@@ -1065,3 +1065,21 @@ HINT: Call calcTip in the loop and use the push method to add values to the tips
 
 GOOD LUCK 😀
 */
+
+const billsx = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tipsx = [];
+const totalsx = [];
+
+
+const calculateTipx = function(bill){
+    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+}
+
+
+for(let counter = 0; counter < billsx.length; counter++){
+    const tip = calculateTipx(billsx[counter]);
+    tipsx.push(tip);
+    totalsx.push(tip + billsx[counter]);
+}
+
+console.log(billsx, tipsx, totalsx);
