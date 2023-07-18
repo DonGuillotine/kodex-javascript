@@ -1009,9 +1009,18 @@ console.log(ages);
 
 
 // Continue and break Statements
-console.log('------------ONLY STRINGS-------------');
+console.log('------------The continue statement "jumps over" one iteration in the loop.-------------');
 
 for(let counter = 0; counter < divineArray.length; counter++){
     if(typeof divineArray[counter] !== 'string') continue;
     console.log(divineArray[counter], typeof divineArray[counter]);
 }
+
+console.log('---------The break statement "jumps out" of a loop.---------')
+for(let counter = 0; counter < divineArray.length; counter++){
+    if(typeof divineArray[counter] === 'number') break;
+
+    console.log(divineArray[counter], typeof divineArray[counter]);
+}
+
+
