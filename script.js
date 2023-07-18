@@ -967,9 +967,9 @@ else{
 
 // **************************** Iteration: For Loop *************************************
 // Loop to display students count
-// for(let counter = 1; counter <= 50; counter++){
-//     console.log(counter);
-// }
+for(let counter = 1; counter <= 50; counter++){
+    console.log(counter);
+}
 
 // Looping Arrays, Breaking and Continuing
 const divineArray = [
@@ -1024,3 +1024,21 @@ for(let counter = 0; counter < divineArray.length; counter++){
 }
 
 
+// --------------------------Iteration: While Loop -----------------------
+
+// The while loop loops through a block of code as long as a specified condition is true.
+let phone = 1;
+
+while(phone <= 10){
+    console.log(`I have ${phone} phones`);
+    phone++;
+}
+
+// Random numbers from 1 - 6
+let dice = Math.trunc(Math.random() * 6) + 1;
+
+while(dice !== 6){
+    console.log(`You rolled a ${dice}`);
+    dice = Math.trunc(Math.random() * 6) + 1;
+    if(dice === 6) console.log(`The Loop has ended`);
+}
