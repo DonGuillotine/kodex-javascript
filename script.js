@@ -1083,3 +1083,18 @@ for(let counter = 0; counter < billsx.length; counter++){
 }
 
 console.log(billsx, tipsx, totalsx);
+
+// Bonus Question Solution
+const calcBonusAverage = function(arr){
+    let sum = 0;
+
+    for(let counter = 0; counter < arr.length; counter++){
+        sum = sum + arr[counter]; // sum += arr[counter]
+    }
+    return sum / arr.length;
+}
+
+// [2, 4, 5]
+
+console.log(calcBonusAverage(totalsx));
+console.log(calcBonusAverage([2, 2, 2]));
