@@ -18,4 +18,11 @@ document.querySelector('.check').addEventListener('click', function(){
     if(!guess){
         displayMessage('No Number 💀');
     }
+    else if(guess === secretNumber){
+        displayMessage('Correct Number 🥳');
+        document.querySelector('.number').textContent = secretNumber;
+
+        document.querySelector('body').style.backgroundColor = '#2f9306';
+        document.querySelector('.number').style.width = '30rem';
+    }
 });
