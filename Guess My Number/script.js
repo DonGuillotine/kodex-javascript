@@ -25,4 +25,10 @@ document.querySelector('.check').addEventListener('click', function(){
         document.querySelector('body').style.backgroundColor = '#2f9306';
         document.querySelector('.number').style.width = '30rem';
     }
+    else if(guess !== secretNumber){
+        displayMessage(guess > secretNumber ? 'Too high 📈' : 'Too low 📉');
+    }
+    else{
+        displayMessage('You lost the game 😭');
+    }
 });
